@@ -1,0 +1,62 @@
+@import '../../styles/variables.module.scss';
+
+.MainPage {
+  margin: auto;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #464646;
+  height: $pageHeight;
+  text-align: center;
+  position: relative;
+
+  .imageWarp {
+    img {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  .createdBy {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .fullName {
+    text-transform: capitalize;
+    font-size: 53px;
+    margin: 73px 0 30px 0;
+
+  }
+
+  .entityId {
+    font-size: 30px;
+    margin-bottom: 70px;
+  }
+
+  .aboutRow {
+    display: flex;
+    font-size: 25px;
+
+    .aboutCol {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 264px;
+      justify-content: space-between;
+      height: 70px;
+
+      .aboutValue {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .flagImage {
+    width: 25px;
+    height: 15px;
+  }
+}

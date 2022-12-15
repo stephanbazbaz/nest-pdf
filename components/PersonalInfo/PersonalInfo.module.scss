@@ -1,6 +1,10 @@
-.PersonalInfo {
-  padding: 0 50px;
+@import '../../styles/variables.module.scss';
 
+.PersonalInfo {
+  height: $pageHeight;
+  color: $greyTextColor;
+  margin: auto;
+  width: 900px;
   .multiWarp {
     display: flex;
     flex-wrap: wrap;

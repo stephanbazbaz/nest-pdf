@@ -1,7 +1,8 @@
+@import '../../../styles/variables.module.scss';
+
 .PageTitle {
   font-size: 22px;
-  color: purple;
-  border-bottom: 2px solid purple;
-  padding: 5px;
-
+  color: $purpleColor;
+  border-bottom: 4px solid $purpleColor;
+  padding: 5px 0;
 }

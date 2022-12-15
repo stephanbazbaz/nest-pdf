@@ -1,21 +1,26 @@
-.container{
+@import '../../../styles/variables.module.scss';
+
+.TagBox {
   width: 49%;
   box-sizing: border-box;
-  margin: 20px 0;
 
-  .title{
+  .title {
     width: fit-content;
     margin: 10px 0;
+    font-size: $fontSize12;
   }
+
   .box {
     border: 1px solid #e7e7e7;
     width: 100%;
     border-radius: 4px;
     display: flex;
     gap: 5px;
-    padding: 5px;
+    padding: 10px;
     box-sizing: border-box;
     margin: 1px;
+    flex-wrap: wrap;
+
     .boxElement {
       background-color: #dfdfdf;
       width: -moz-fit-content;

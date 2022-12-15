@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none">
+    <circle cx="9" cy="9" r="4" fill="currentColor" />
+    <path opacity="0.44" d="M11.375 7.7334L21.6212 4.26722" stroke="currentColor" />
+    <path opacity="0.44" d="M8.99388 9.00016L19 14.0005" stroke="currentColor" />
+    <path opacity="0.44" d="M8.99526 8.99992L13.5 19.5005" stroke="currentColor" />
+    <path opacity="0.44" d="M8.99528 8.99945L5 19" stroke="currentColor" />
+    <circle cx="19" cy="14" r="2" fill="currentColor" />
+    <circle r="1" transform="matrix(1 0 0 -1 5 19)" fill="currentColor" />
+    <circle r="1.5" transform="matrix(1 0 0 -1 13.5 19.5)" fill="currentColor" />
+    <circle cx="20.5" cy="4.5" r="2.5" fill="currentColor" />
+</svg>
