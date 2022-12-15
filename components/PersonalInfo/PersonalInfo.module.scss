@@ -1,0 +1,11 @@
+.PersonalInfo {
+  padding: 0 50px;
+
+  .multiWarp {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+
+}

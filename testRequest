@@ -1,0 +1,17 @@
+
+
+
+curl 'https://demo.exlabs.cloud/api/content-enrichment/toppings?query=\{%22serviceType%22:%22stories%22,%22distantId%22:921,%22limit%22:1000,%22offset%22:0,%22parentWhere%22:\{\},%22commonWords%22:\[\],%22phrase%22:\[\],%22entity%22:\[\]\}' \
+  -H 'authority: demo.exlabs.cloud' \
+  -H 'accept: application/json' \
+  -H 'accept-language: ru,en-US;q=0.9,en;q=0.8' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InV4X3VzZXIwMSIsImlkIjo1LCJyb2xlcyI6WyJTVVBFUiJdLCJpYXQiOjE2NzEwODk4ODgsImV4cCI6MTY3MTEyNTg4OH0.CO1ikACjk8vHSosadK9TE-gGZ-_gDDGmXe_yJkqw_PU' \
+  -H 'referer: https://demo.exlabs.cloud/profile/921/report' \
+  -H 'sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36' \
+  --compressed

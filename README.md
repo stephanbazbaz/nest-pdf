@@ -10,6 +10,11 @@ npm run dev
 yarn dev
 ```
 
+## Create new components
+```
+Create New Component - "npx generate-react-cli component <component-name>"
+Create New Common Component - "npx generate-react-cli component <component-name> --type=common"
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
